@@ -12,4 +12,6 @@ const parOimpar = (ingredientes) => {
     }
     return console.log (`Los ingredientes pares son: ${pares}. Los ingredientes impares son: ${impares}.`);
 };
-console.log (parOimpar(ingredientes));
+parOimpar(ingredientes)
+// no poner de neuvo console;log porque ya esta en el return de la funcion, sino tira undefined 
+// console.log (parOimpar(ingredientes));

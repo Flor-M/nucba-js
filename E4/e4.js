@@ -82,7 +82,7 @@ const imprimirData = (array) => {
     nombrePizza.appendChild(textNombre);
     nombrePizza.classList.add("name");
 
-    const precioPizza = document.createElement('span');
+    const precioPizza = document.createElement('p');
     const textPrecio = document.createTextNode(`$${array.precio}`);
     precioPizza.appendChild(textPrecio);
     precioPizza.classList.add("price");
@@ -109,7 +109,7 @@ const imprimirData = (array) => {
     textoPizza.appendChild(ingredientesPizza);
 
     primerTextoPizza.appendChild(nombrePizza);
-    primerTextoPizza.appendChild(textPrecio);
+    primerTextoPizza.appendChild(precioPizza);
     
     imgContenedorPizza.appendChild(imgPizza);
 

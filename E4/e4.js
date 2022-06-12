@@ -88,7 +88,7 @@ const imprimirData = (array) => {
     precioPizza.classList.add("price");
 
     const ingredientesPizza = document.createElement('p');
-    const textIngredientes = document.createTextNode(array.ingredientes);
+    const textIngredientes = document.createTextNode(array.ingredientes.join(', '));
     ingredientesPizza.appendChild(textIngredientes);
     ingredientesPizza.classList.add("ingredients");
 

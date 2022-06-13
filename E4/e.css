@@ -136,3 +136,11 @@ body {
     background-color: #c5c5c5;
     color: rgb(181, 10, 10);
 }
+
+#git {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "roboto-medium";
+    color: #1c1c1c;
+    margin-top: 2rem;
+}

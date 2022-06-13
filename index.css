@@ -26,9 +26,13 @@ body {
     justify-content: space-evenly;
 }
 
-#e1, #e2, #e3, #e4 {
+#e1, #e2, #e3, #e4, #git {
     text-decoration: none;
     text-transform: uppercase;
     font-family: "roboto-medium";
     color: #1c1c1c;
+}
+
+#git {
+    margin-top: 1.3rem; 
 }

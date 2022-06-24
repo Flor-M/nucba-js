@@ -34,21 +34,22 @@ body {
 .text {
     text-align: center;
     font-size: 0.9rem;
+    margin: 0rem;
 }
 
 .input-container {
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .card-container {
-    height: 55%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .card {
-    height: 26rem;
+    height: 95%;
     width: 31rem;
     border-radius: 2rem;
     background-color: #e0e0e0;
@@ -56,7 +57,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0rem;
+    margin: 1rem 0rem;
     -webkit-box-shadow: 4px 3px 14px 0px rgba(0,0,0,0.31); 
     box-shadow: 4px 3px 14px 0px rgba(0,0,0,0.31);
 }
@@ -110,7 +111,7 @@ body {
 }
 
 #form-pizza{
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,10 +142,70 @@ body {
     color: rgb(181, 10, 10);
 }
 
+.all-container {
+    height: 30%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.card-tiny{
+    height: 85%;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e0e0e0;
+    border-radius: 0.9rem;
+    padding: 0rem 1rem;
+    opacity: 0.6;
+    transition-duration: 0.3s;
+    -webkit-box-shadow: 4px 3px 14px 0px rgba(0,0,0,0.31); 
+    box-shadow: 4px 3px 14px 0px rgba(0,0,0,0.31);
+}
+
+.card-tiny:hover {
+    opacity: 1;
+}
+
+.tiny-primer-info {
+    display: flex;
+}
+
+.tiny-name {
+    margin-bottom: 0rem;
+    color: rgb(181, 10, 10);
+}
+
+.tiny-price {
+    font-size: 0.8rem;
+    align-self: flex-end;
+    margin-left: 0.5rem;
+}
+
+.tiny-ingredients {
+    font-size: 0.8rem;
+}
+
+.tiny-img-contenedor {
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tiny-img {
+    width: 100%;
+}
+
 #git {
     text-decoration: none;
     text-transform: uppercase;
     font-family: "roboto-medium";
     color: #1c1c1c;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
